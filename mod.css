@@ -1,0 +1,47 @@
+#mangoContainer {
+  display: flex;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  padding: 10px;
+  background-color: #37474f;
+  z-index: 50;
+  color: #ffffff;
+  border-radius: 5px;
+  align-items: center;
+}
+
+#mangoContainer .c-info {
+  color: #17d2fe;
+}
+
+#mangoContainer .c-action {
+  color: #4caf50;
+  cursor: pointer;
+}
+
+#mangoContainer button {
+  background-color: #4caf50;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  border:0;
+  margin-right: 10px;
+}
+#mangoContainer button:hover{
+  background-color: #3d8b40;
+}
+
+#mangoContainer .mangoClose {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 5px;
+}
+
+#mangoContainer .call-info{
+  padding-right: 15px;
+}
+
+
